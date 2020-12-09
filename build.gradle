@@ -1,6 +1,8 @@
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'jacoco'
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'jacoco'
+}
 
 version = '1.0.0'
 sourceCompatibility = 1.8
